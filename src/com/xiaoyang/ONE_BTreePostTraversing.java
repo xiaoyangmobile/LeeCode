@@ -3,7 +3,7 @@ package com.xiaoyang;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BTreePostTraversing {
+public class ONE_BTreePostTraversing {
     public static List<Integer> postOrderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         printNode(root, result);
@@ -46,19 +46,4 @@ public class BTreePostTraversing {
         }
     }
 
-}
-class TreeNode {
-    TreeNode left;
-    TreeNode right;
-    int value;
-
-    TreeNode(int value) {
-        this.value = value;
-    }
-
-    TreeNode(int value, TreeNode left, TreeNode right) {
-        this.value = value;
-        this.left = left;
-        this.right = right;
-    }
 }
