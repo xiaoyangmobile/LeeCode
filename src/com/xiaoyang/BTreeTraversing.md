@@ -1,5 +1,5 @@
 # 二叉树遍历
-![BTree](./img/BTree.jpg)
+![BTree](https://github.com/xiaoyangmobile/LeeCode/blob/master/src/com/xiaoyang/img/BTree.jpg)
 ## 深度遍历
 ### 前序遍历
 前序遍历是先根再左后右。
